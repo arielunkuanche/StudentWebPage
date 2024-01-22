@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>student add</title>
+
+</head>
+<body>
+	<h1>Add student</h1>
+
+	<form class="formStudent">
+		<label for="txtid">ID:</label> 
+		<input id="txtid" type="txtid" required><br> 
+		
+		<label for="txtfirstName">First Name:</label>
+		<input id="txtfirstName" name="txtfirstName" type="text" required><br>
+
+		<label for="txtlastName">Last Name:</label> 
+		<input id="txtlastName" name="txtlastName" type="text" required><br> 
+		
+		<label for="txtstreetAddress">Street Address:</label> 
+		<input id="txtstreetAddress" name="txtstreetAddress" type="text" required><br>
+
+		<label for="txtpostCode">Post Code:</label> 
+		<input id="txtpostCode" name="txtpostCode" type="text" required><br> 
+		
+		<label for="txtpostOffice">Post Office:</label> 
+		<input id="txtpostOffice" name="txtpostOffice" type="text" required><br>
+	</form>
+	
+	<div>
+		<input type="button" value="Add Student" onclick="addStudent()">
+	</div>
+	
+
+
+	<script src="studentAdd.js"></script>
+
+</body>
+</html>

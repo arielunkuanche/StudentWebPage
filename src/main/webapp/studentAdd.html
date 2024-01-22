@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/webAppExercises.css?v=3" />
+	<title>student add</title>
+
+</head>
+<body>
+	<h1>Add Student</h1>
+
+	<form class="formStudent">
+		<label for="txtid">ID:</label> 
+		<input id="txtid" name="ID" type="text" required><br> 
+		
+		<label for="txtfirstName">First Name:</label>
+		<input id="txtfirstName" name="firstname" type="text" required><br>
+
+		<label for="txtlastName">Last Name:</label> 
+		<input id="txtlastName" name="lastname" type="text" required><br> 
+		
+		<label for="txtstreetAddress">Street Address:</label> 
+		<input id="txtstreetAddress" name="streetaddress" type="text" required><br>
+
+		<label for="txtpostCode">Post Code:</label> 
+		<input id="txtpostCode" name="postcode" type="text" required><br> 
+		
+		<label for="txtpostOffice">Post Office:</label> 
+		<input id="txtpostOffice" name="postoffice" type="text" required><br>
+	</form>
+	
+	<div class="buttonContainer">
+		<input type="button" value="Add" onclick="addStudent()">
+		<input type="button" value="Cancel" onclick="cancel()">
+	</div>
+	
+
+
+	<script src="studentAdd.js"></script>
+
+</body>
+</html>

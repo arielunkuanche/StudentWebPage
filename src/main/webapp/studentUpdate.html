@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/webAppExercises.css?v=3" />
+	<title>student update</title>
+
+</head>
+<body>
+	<h1>Update Student</h1>
+
+	<form class="formUpdateStudent" id="updateStu">
+		<label for="txtid">ID:</label> 
+		<input id="txtid" name="txtid" type="text" required><br> 
+		
+		<label for="txtfirstName">First Name:</label>
+		<input id="txtfirstName" name="txtfirstName" type="text" required><br>
+
+		<label for="txtlastName">Last Name:</label> 
+		<input id="txtlastName" name="txtlastName" type="text" required><br> 
+		
+		<label for="txtstreetAddress">Street Address:</label> 
+		<input id="txtstreetAddress" name="txtstreetAddress" type="text" required><br>
+
+		<label for="txtpostCode">Post Code:</label> 
+		<input id="txtpostCode" name="txtpostCode" type="text" required><br> 
+		
+		<label for="txtpostOffice">Post Office:</label> 
+		<input id="txtpostOffice" name="txtpostOffice" type="text" required><br>
+	</form>
+	
+	<div class="updatebuttonContainer">
+		<input type="button" value="Update" onclick="updateStudent()">
+		<input type="button" value="Cancel" onclick="cancel()">
+	</div>
+	
+
+
+	<script src="studentUpdate.js" defer></script>
+
+</body>
+</html>
